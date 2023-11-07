@@ -3,4 +3,4 @@
 const texto = prompt("Ingresa un texto:");
 const textoEnMayusculas = texto.toUpperCase();
 
-console.log("Texto en mayúsculas:", textoEnMayusculas);
+document.write("Texto en mayúsculas:", textoEnMayusculas);
