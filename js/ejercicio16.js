@@ -8,4 +8,4 @@ for (let i = texto.length - 1; i >= 0; i--) { //el for reccore la cena de fin a 
   textoAlReves += texto[i];
 }
 
-document.write("El texto al reves es : ", textoAlReves);
+document.write("El texto al reves es: ", textoAlReves);
