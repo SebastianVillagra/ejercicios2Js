@@ -5,11 +5,13 @@ número deberá indicarse con un «alert» y seguir pidiendo números. Al salir 
 let sumaTotal = 0;
 
 while (true) {
-  const numero = parseFloat(prompt("Ingresa un número o pulsa 'cancelar' para salir:"));
+  const numeroIngresado = prompt("Ingresa un número o pulsa 'cancelar' para salir:");
 
-  if ( numero === null) {
+  if ( numeroIngresado === null) {
     break;
   }
+
+  const numero = parseInt(numeroIngresado);
 
   if (!isNaN(numero)) {
     
@@ -22,3 +24,5 @@ while (true) {
 }
 
 alert("La suma total de los números introducidos es: " + sumaTotal);
+
+//No se porque cuando uso el parseint en la linea 8, no sale cuando pongo cancelar
