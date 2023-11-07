@@ -20,5 +20,5 @@ if (!isNaN(tope) && tope > 0 && tope <= 50) {
     document.write(linea + "<br>");
   }
 } else {
-  alert("Ingresa un número válido entre 1 y 50.");
+  alert("Ingresa un número válido entre 1 y 50");
 }
